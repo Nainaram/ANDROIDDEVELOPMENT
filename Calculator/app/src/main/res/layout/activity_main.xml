@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:layout_margin="20dp">
+
+    <EditText
+        android:id="@+id/firstnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter the first number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/secondnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter the Second number"
+        android:inputType="number" />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"/>
+    <Button
+        android:id="@+id/buttonadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"/>
+    <Button
+        android:id="@+id/buttonsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sub"/>
+    <Button
+    android:id="@+id/buttonmul"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="multiplication"/>
+    <Button
+        android:id="@+id/buttondiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Divide"/>
+
+
+
+
+</LinearLayout>

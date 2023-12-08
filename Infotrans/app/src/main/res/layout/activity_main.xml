@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+        android:text="Enter the message"
+         android:id="@+id/Message"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sentdata"
+        android:id="@+id/sentdata"/>
+
+
+    <Button
+        android:id="@+id/Buttoncall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        />
+    <Button
+        android:id="@+id/Buttonmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="message"
+        />
+    <Button
+        android:id="@+id/Buttonemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email"
+        />
+    <Button
+        android:id="@+id/Buttonshare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        />
+
+</LinearLayout>
